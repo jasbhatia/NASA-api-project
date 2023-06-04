@@ -52,3 +52,28 @@ ul li {
   font-weight: 300;
   margin-top: 1em;
 }
+#btn {
+  width: 10%;
+  padding: 0.5em 0.7em;
+  color: white;
+  background-color: black;
+  font-weight: 300px;
+  font-size: 1em;
+  margin-left: 1em;
+  cursor: pointer;
+}
+
+#btn:hover {
+  box-shadow: 0px 3px 4px rgb(116, 110, 110);
+  color: cornsilk;
+  background-color: rgb(84, 84, 84);
+}
+h2,
+p {
+  margin-left: 1em;
+  /* text-align: justify; */
+  /* text-justify: inter-word; */
+}
+h2 {
+  margin-top: 1em;
+}

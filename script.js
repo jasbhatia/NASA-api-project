@@ -12,6 +12,10 @@ fetch(url)
     let frame = document.getElementById("myFrame");
 
     frame.src = `${data.hdurl}`;
+    let title = document.getElementById("title");
+    let p = document.getElementById("description");
+    title.textContent = `${data.title}`;
+    p.textContent = `${data.explanation}`;
   });
 
 const btn = document.getElementById("btn");
@@ -62,5 +66,9 @@ function getImageOfTheDay(date) {
       let frame = document.getElementById("myFrame");
 
       frame.src = `${data.hdurl}`;
+      let title = document.getElementById("title");
+      let p = document.getElementById("description");
+      title.textContent = `${data.title}`;
+      p.textContent = `${data.explanation}`;
     });
 }
