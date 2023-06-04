@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+#current-image-container {
+  width: 100%;
+  background-color: white;
+}
+main {
+  height: 100%;
+  width: 70%;
+  background-color: white;
+  margin: 2em auto;
+}
+
+#current-image-container h1 {
+  text-align: center;
+  padding-top: 8px;
+}
+
+#myFrame {
+  margin: 1em auto;
+  width: 60%;
+  display: block;
+}
+input {
+  width: 30%;
+  /* display: block; */
+  margin-left: 1em;
+  padding: 0.5em 1em;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+label {
+  font-size: 1.1em;
+  font-weight: 60px;
+  margin-left: 1em;
+}
+h2 {
+  margin-left: 1em;
+}
+
+ul li {
+  font-size: 1em;
+  font-weight: 300;
+  margin-top: 1em;
+}
